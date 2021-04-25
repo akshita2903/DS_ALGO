@@ -1,3 +1,4 @@
+//dutch national flag algorithm used
 public class sortarrayof120 {
     void sort012(int a[], int n)
 {
