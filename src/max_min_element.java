@@ -44,7 +44,7 @@ public class max_min_element {
        }
        System.out.println("Minimum element ="+min);
        System.out.println("Maximum element ="+max);
-       //T.C=O(n),comparisons->
+       //T.C=O(n),comparisons-> 3n/2 for best,4n/2 for worst
 
        
 
