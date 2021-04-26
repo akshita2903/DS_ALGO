@@ -6,10 +6,12 @@ public class duplicate {
         int a[]=new int[n];
         for(int i=0;i<n;i++)a[i]=sc.nextInt();
       System.out.println(findDuplicate(a));
+      sc.close();
     }
     static int findDuplicate(int[] nums) {
-        int n=nums.length;
+      
       /*  HashSet<Integer> h=new HashSet<>();
+        int n=nums.length;
         for(int i=0;i<n;i++)
         {
             if(!h.contains(nums[i])) h.add(nums[i]);
