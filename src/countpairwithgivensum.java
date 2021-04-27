@@ -17,10 +17,10 @@ class countpairwithgivensum{
        for(int i=0;i<n;i++)
        {
            if(!mp.containsKey(arr[i]))
-           mp.put(arr[i],1);
+           mp.put(arr[i],1);                   //time->O(n)
            else mp.put(arr[i],mp.get(arr[i])+1);
        }
-       for(int i=0;i<n;i++)
+       for(int i=0;i<n;i++) // time->O(n)
        {
            if(mp.containsKey(k-arr[i]))
            {
@@ -31,7 +31,8 @@ class countpairwithgivensum{
            }
             if(k-arr[i]==arr[i]) c--;
        }
-       return c/2;
+       return c/2; 
+       //Time->O(n)+O(n)=O(n)  space=O(n) for hahs-table
     }
     
 }
