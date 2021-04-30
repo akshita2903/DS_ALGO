@@ -19,6 +19,7 @@ public class commonto3array {
         ArrayList<Integer> ls=new ArrayList<>();
         ls=s.commonElements(a,b,c,n,m,o);
     System.out.println((ls.isEmpty())?-1:ls);
+    sc.close();
 
     }
 }
