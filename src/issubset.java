@@ -9,6 +9,7 @@ public String isSubset( long a1[], long a2[], long n, long m) {
         if(l.contains(a1[i])) c++;
     }
     return c==n2 ?"Yes":"No";
+   // t.c-> O(n+m) and space=O(n+m)
     
     
 }
