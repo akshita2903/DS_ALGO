@@ -9,7 +9,7 @@ String res="1";
             StringBuilder sb=new StringBuilder();
             for(int j=1;j<=res.length();j++)//O(res.length())
             {
-                if(j<res.length() && (res.charAt(j-1)==res.charAt(j))) 
+         if(j<res.length() && (res.charAt(j-1)==res.charAt(j))) 
                     x++;
                 else{
                     sb.append(x);
