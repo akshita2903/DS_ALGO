@@ -1,5 +1,5 @@
 import java.util.*;
-public class subsequenceofstring {
+public class possiblecombinationsofstring{
   static  HashSet<String> ans=new HashSet<>();
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -19,7 +19,7 @@ subsequence(s,s.length(),"");
         subsequence(s.substring(1),m-1,x);
 
         //return s;
-        
+
     }
-    
+
 }

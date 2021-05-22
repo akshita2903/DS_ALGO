@@ -1,3 +1,4 @@
+import java.util.*;
 public class valid_parenthesis {
     public boolean isValid(String s) {
         Stack<Character> st=new Stack<>();
@@ -14,7 +15,7 @@ public class valid_parenthesis {
                              if(c=='}'|| c==']') return false;
                              break;
                          }
-                 
+
                  case '{':
                  {
                      if(c==']'||c==')') return false;
@@ -29,7 +30,7 @@ public class valid_parenthesis {
          }
          }
              return st.isEmpty()?true:false;
-         
+
      }
-    
+
 }
