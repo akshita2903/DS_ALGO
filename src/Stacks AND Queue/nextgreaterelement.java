@@ -1,4 +1,5 @@
-﻿public class nextgreaterelement{
+﻿import java.util.*;
+public class nextgreaterelement{
 public static long[] nextLargerElement(long[] arr, int n)
 {
     // Your code here
