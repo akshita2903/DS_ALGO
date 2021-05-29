@@ -1,0 +1,1 @@
+{"name":"Local: adjacentdifferbyk","url":"d:\\algods\\algo\\src\\sortings\\adjacentdifferbyk.java","tests":[{"id":1622097054282,"input":"6\n1 3 5 7 8 10\n2\n8","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\algods\\algo\\src\\sortings\\adjacentdifferbyk.java","group":"local","local":true}
