@@ -1,4 +1,5 @@
-﻿import java.util.*;
+﻿package BinaryTree;
+import java.util.*;
 public class mirror {
     mirror left,right;
 
@@ -22,13 +23,13 @@ public boolean isSymmetric(mirror root) {
     //iterative Approach
     public boolean m(mirror root)
     {
-        Queue <TreeNode> q=new LinkedList<TreeNode>();
+        Queue <mirror> q=new LinkedList<mirror>();
         q.add(root.left);
         q.add(root.right);
         while(!q.isEmpty())
         {
-            TreeNode t1=q.poll();
-            TreeNode t2=q.poll();
+            mirror t1=q.poll();
+            mirror t2=q.poll();
             if(t1==null && t2==null) {
             continue;
             }
