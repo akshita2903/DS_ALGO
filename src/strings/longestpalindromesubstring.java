@@ -1,3 +1,4 @@
+package strings;
 class longestpalindromesubstring {
     public String longestPalindrome(String s) {
         int l=s.length();

@@ -1,4 +1,5 @@
-﻿public class missingandrepeating {
+﻿package arrays;
+public class missingandrepeating {
     int[] findTwoElement(int arr[], int n) {
         int xor=0,x=0,y=0;
         for(int i=0;i<n;i++) {

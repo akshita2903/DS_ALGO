@@ -1,10 +1,11 @@
+package dp;
 import java.io.*;
 import java.util.*; 
 import java.lang.*;
 import java.text.*;
 
  
-public class Main   //JAVA FORMAT
+public class unmerge   //JAVA FORMAT
 {
  final static int n=1000000;
  static boolean b[]=new boolean[n+2];

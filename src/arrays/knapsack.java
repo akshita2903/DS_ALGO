@@ -1,3 +1,4 @@
+package arrays;
 class knapsack{ 
 static int knapSack(int W, int wt[], int val[], int n) 
     { 

@@ -1,14 +1,15 @@
-﻿ import java.util.*;
+﻿package sortings;
+import java.util.*;
 public class adjacentdifferbyk {
     public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int a[]=new int[n];
         for(int i=0;i<n;i++) a[i]=sc.nextInt();
         int k=sc.nextInt();
         int x=sc.nextInt();
         System.out.println(find(a,n,k,x));
-        s.close();
+        sc.close();
 
     }
     static int find(int a[],int n,int k,int x)

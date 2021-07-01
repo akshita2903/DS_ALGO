@@ -1,3 +1,11 @@
+package linklist;
+class ListNode{
+    ListNode next; int val;
+    public ListNode(int x){
+        this.val=x;
+        this.next=null;
+    }
+}
 public class add_two_link {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode y=null,x=null,temp=null;

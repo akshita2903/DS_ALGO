@@ -1,4 +1,5 @@
-﻿public class intersection_of_2_ll {
+﻿package linklist;
+public class intersection_of_2_ll {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         //if(headB==null || headA==null) return null;

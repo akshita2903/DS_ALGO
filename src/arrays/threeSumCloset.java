@@ -1,4 +1,5 @@
-﻿import java.util.*;
+﻿package arrays;
+import java.util.*;
  class threeSumClosest {
     public int threeSumCloset(int[] nums, int target) {
         int n=nums.length;

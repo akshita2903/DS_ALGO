@@ -1,3 +1,4 @@
+package linklist;
 public class removeduplictes {
   //iterative
     public ListNode deleteDuplicates(ListNode head) {

@@ -1,4 +1,5 @@
-﻿public class binomial_coefficient_nCr {
+﻿package dp;
+public class binomial_coefficient_nCr {
     static  int mod=1000000007;
     static int nCr(int n, int r)
     {

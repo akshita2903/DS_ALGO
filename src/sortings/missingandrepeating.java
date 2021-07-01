@@ -1,4 +1,5 @@
-﻿import java.io.*;
+﻿package sortings;
+import java.io.*;
 import java.util.*;
 public class missingandrepeating {
     // Initial Template for Java

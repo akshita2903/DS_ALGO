@@ -1,3 +1,12 @@
+package linklist;
+class Listode{
+    Listode next; int val;
+    public Listode(int x){
+        this.val=x;
+        this.next=null;
+    }
+}
+
 public class delete_nth_nodefromed {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode ptr=head,tmp=head; int c=0,p=0;

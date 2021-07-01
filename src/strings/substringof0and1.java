@@ -1,4 +1,5 @@
- class subtringof0and1{
+package strings;
+class subtringof0and1{
     public int countBinarySubstrings(String s) {
         //if(s.length()<=1) return -1;
         int one=0, zero=0,last_element=-2;

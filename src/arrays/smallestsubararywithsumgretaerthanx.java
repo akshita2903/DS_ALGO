@@ -1,3 +1,4 @@
+package arrays;
 import java.util.*;
 public class smallestsubararywithsumgretaerthanx {
     public static long sb(long a[], long n, long x) {

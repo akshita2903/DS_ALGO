@@ -1,3 +1,5 @@
+package arrays;
+import java.util.*;
 public class mergeintervals {
     //my approach
     public int[][] merge(int[][] intervals) {

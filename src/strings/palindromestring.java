@@ -1,3 +1,4 @@
+package strings;
 public class palindromestring {
     public boolean isPalindrome(String s) {
         int left=0,right=s.length()-1;

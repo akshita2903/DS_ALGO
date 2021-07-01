@@ -1,4 +1,4 @@
-﻿
+﻿package dp;
 public class knapsack01{
     static int knapSack(int W, int wt[], int val[], int n)
     {

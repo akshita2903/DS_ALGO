@@ -1,3 +1,4 @@
+package dp;
 class solution{
 static int maxGold(int n, int m, int M[][])
     {

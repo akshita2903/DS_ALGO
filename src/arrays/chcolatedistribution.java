@@ -1,4 +1,4 @@
-
+package arrays;
     import java.util.*;
 public class chcolatedistribution {
     public long findMinDiff (ArrayList<Long> a, long n, long m)

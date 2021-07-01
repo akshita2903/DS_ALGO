@@ -1,3 +1,4 @@
+package strings;
 public class EditDistance {
     public int minDistance(String word1, String word2) {
         int x=lcs(word1,word2);

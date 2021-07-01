@@ -1,4 +1,6 @@
-﻿public class intersectionofsortedll {
+﻿package linklist;
+
+public class intersectionofsortedll {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         //if(headB==null || headA==null) return null;
        ListNode x=headA,y=headB;

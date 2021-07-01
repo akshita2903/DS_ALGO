@@ -1,4 +1,5 @@
-class Solution {
+package arrays;
+class PivotElement{
     public int findMin(int[] nums) {
         return founded(nums);
         

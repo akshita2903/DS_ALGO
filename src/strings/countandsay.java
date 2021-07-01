@@ -1,3 +1,4 @@
+package strings;
 class countandsay{
     int res=0; 
     public String countAndSay(int n) {

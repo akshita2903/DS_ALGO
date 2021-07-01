@@ -1,4 +1,5 @@
-﻿public class partition_equal_subset {
+﻿package dp;
+public class partition_equal_subset {
 
     public boolean canPartition(int[] nums) {
 

@@ -1,3 +1,11 @@
+package linklist;
+class Node{
+    Node next; int data;
+    Node(int x){
+        this.data=x;
+        this.next=null;
+    }
+}
 public class add_one_to_ll {
     public static Node addOne(Node head) 
     { 

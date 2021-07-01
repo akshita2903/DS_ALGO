@@ -1,3 +1,4 @@
+package strings;
 import java.util.*;
 public class possiblecombinationsofstring{
   static  HashSet<String> ans=new HashSet<>();

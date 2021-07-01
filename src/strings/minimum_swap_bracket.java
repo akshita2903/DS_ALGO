@@ -1,4 +1,5 @@
-﻿public class minimum_swap_bracket
+﻿package strings;
+public class minimum_swap_bracket
 
 {
     static int minimumNumberOfSwaps(String S){

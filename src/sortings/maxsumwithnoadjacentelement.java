@@ -1,4 +1,5 @@
-﻿public class maxsumwithnoadjacentelement {
+﻿package sortings;
+public class maxsumwithnoadjacentelement {
     public int FindMaxSum(int arr[], int n)
     {
        int dp[]=new int[n+1];

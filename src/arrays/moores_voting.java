@@ -1,4 +1,5 @@
-﻿public class moores_voting {
+﻿package arrays;
+public class moores_voting {
 
     public int majorityElement(int[] nums) {
         int n=nums.length;

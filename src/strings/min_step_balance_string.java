@@ -1,3 +1,4 @@
+package strings;
 public class min_step_balance_string {
     public int minInsertions(String s) {
         s=s.replace("))","}");

@@ -1,3 +1,4 @@
+package strings;
 public class longestcommonsubsequence {
       public int longestCommonSubsequence(String text1, String text2) {
         int n=text1.length(),m=text2.length();

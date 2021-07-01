@@ -1,4 +1,5 @@
-﻿public class middlell {
+﻿package linklist;
+public class middlell {
   /*  middlell next;
     int data;
     class Solution{

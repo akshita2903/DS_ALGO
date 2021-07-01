@@ -1,4 +1,14 @@
-﻿public class addtwoll {
+﻿
+package linklist;
+import java.util.*;
+class ListNde{
+    ListNde next; int val;
+    public ListNde(int x){
+        this.val=x;
+        this.next=null;
+    }
+}
+public class addtwoll {
   
 }
 /**
