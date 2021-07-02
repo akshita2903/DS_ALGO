@@ -67,4 +67,6 @@ public class stringtotree {
 	System.out.println();
 	}
 } 
+//time complexity=O(n*n) and space->O(n)
+//link to GFG="https://ide.geeksforgeeks.org/9y6MLPZDQX"
 
