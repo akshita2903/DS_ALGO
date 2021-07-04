@@ -30,3 +30,4 @@ public void toSumTree(Node root){
       
     }
 }
+//O(n)
