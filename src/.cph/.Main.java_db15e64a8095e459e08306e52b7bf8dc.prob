@@ -1,0 +1,1 @@
+{"name":"Local: Main","url":"d:\\algods\\algo\\src\\Main.java","tests":[{"id":1625393344534,"input":"5\n24 3 5\n10 3 6\n2345 1 4\n19260817 394 485\n19260817 233 264","output":"Yes\nNo\nYes\nNo\nYes"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\algods\\algo\\src\\Main.java","group":"local","local":true}

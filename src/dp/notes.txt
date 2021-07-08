@@ -1,0 +1,14 @@
+-------------------------------------Longest Common Subsequence(LCS)--------------------------------
+LCS->no substring -> for ex= String a="ABCDHE" String b="ABCEFG" ->LCS="ABCE" of length==4            |
+means dont have to  look for substring   here,                                                        |
+a[0]==b[0],a[1]==b[1],a[2]==b[2],a[5]==a[3] although there are char betweens index 3-4 for string a we dont consider it as it doenot leads to LCS..                                                          |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+<------------------------------------Longest Common Substring---------------------------------------->
+String a="ABCDHE,String b="ABCEFG longest common substring="ABC" we have to look for continuous    |   occurrence of charcters that is for subtring of particular length in both strings a and b.        |
+a[0]=b[0],res=Math.max(res,(length of longest cmmon substring till now))=1,a[1]=b[1],res=2,       |
+a[2]=b[2],till len=3 res=3 a[4]!=b[4],res=3,a[5]!=b[5].
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
