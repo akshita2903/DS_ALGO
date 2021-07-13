@@ -1,5 +1,8 @@
 import java.io.*;
-import java.util.*; 
+import java.util.*;
+
+import javax.swing.plaf.synth.SynthToolTipUI;
+
 import java.lang.*;
 import java.text.*;
 
@@ -12,41 +15,64 @@ public class Main  //JAVA FORMAT
    Long mod=1000000007L;
     public static void solve()
     {
-        
-        
-    
-int t=i();
-while(t-->0)
-{
- 
-Long a=l();
-Long b=l();
-if(a==b){
-System.out.println(0+" "+0);
-continue;
-}
-Long diff=(a>b)?(a-b):(b-a);
-if(diff==1) {System.out.println(1+" "+0);
-continue;
-}
-else {
-    
-}
-
-
-
- 
+     
+  int t=i();
+  while(t-->0){
+      int n=i();
+      int l=i();
+      int r[]=input(l);
+      r=sort(r);
+      System.out.println(bs(r,l,n));
+  }
  }
-    }
-    static char ch(String s,int i){
-        return s.charAt(i);
-    }
-   static int len(String s){
-        return s.length();
-    }
-  static  int max(int x,int y){
-        return (x>y)?x:y;
-    }
+ static int bs(int a[],int l,int n){
+     int ans=-1,low=0,high=100000000;
+     while( low<=high){
+         int mid=low+(high-low)/2;
+         if(countans(mid,a,l,n)){
+             ans=mid;
+             high=mid-1;
+         }
+         else low=mid+1;
+     }
+     return ans;
+ }
+ static boolean countans(int mid,int a[],int l,int n){
+     int parathas=0;
+    // System.out.println(mid);
+     for(int i=0;i<l;i++){
+         int z=2*mid/a[i];
+        int c=-1+sqrt(1+(4*z));
+        c/=2;
+       // System.out.println(c+" paratsh");
+        parathas+=c;
+     }
+     return (parathas>=n);
+ }
+ static int sqrt(int val){
+     return (int)Math.sqrt(val);
+ }
+ static int[] sort(int a[]){
+     Arrays.sort(a);
+     return a;
+ }
+ static boolean isvalid(Long a[],int n,Long mid,Long c){
+     
+     Long sum=0L;
+     for(int i=0;i<n;i++){
+         if(a[i]>mid)
+        sum+=(a[i]-mid);
+         }
+     if(sum>=c) return true;
+ return false;
+ }
+ static int calc(){
+     return 0;
+ }
+    
+   
+
+    
     public static boolean issum(int sum,int a[],int n){
         boolean dp[][]=new boolean[sum+1][n+1];
         for(int i=0;i<=sum;i++){
@@ -68,33 +94,42 @@ else {
    
 
         
-        
+ //-----------------------------------------------------------------------------------//       
      public static void main(String[] args) 
     { 
        
  solve();
     }
-  
-  /*  public static int diglen(Long y)
-    {int a=0;
-        while(y!=0L)
-        {
-         y/=10;
-         a++;
-          
+    static int[] fillevel(ArrayList<ArrayList<Integer>> l1,int n,int x){
+        int level[]=new int[n+1];
+boolean visited[]=new boolean[n+1];
+level[x]=0; visited[x]=true;
+Queue<Integer> q=new LinkedList<>();
+q.add(x);
+while(q.size()>0){
+    x=q.peek();
+    q.remove();
+    for(int j=0;j<l1.get(x).size();j++){
+        int y=l1.get(x).get(j);
+        if(!visited[y]){
+            visited[y]=true;
+            level[y]=level[x]+1;
+            q.add(y);
         }
-        return a;
     }
-     public static boolean ispalchar(char c[],int n)
-     {
-         for(int i=0;i<n;i++)
-         {
-             if((c[i]!=c[n-i-1]) || c[i]=='?') return false;
-         }
-         return true;
-     }*/
-       
-    
+}
+        return level;
+    }
+    static char ch(String s,int i){
+        return s.charAt(i);
+    }
+   static int len(String s){
+        return s.length();
+    }
+  static  int max(int x,int y){
+        return (x>y)?x:y;
+    }
+ 
         public static int i()
         {
             int s=sc.nextInt();

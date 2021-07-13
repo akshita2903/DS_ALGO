@@ -1,4 +1,4 @@
-package sortings.sortings;
+package sortings_and_searching.sortings;
 import java.util.*;
 public class median_of_2_sorted_array {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

@@ -1,12 +1,10 @@
-class aggressive_cows{
-  import java.io.*;
+package sortings_and_searching.sortings.important;
+import java.io.*;
 import java.util.*; 
 import java.lang.*;
 import java.text.*;
+class aggressive_cows{
 
- 
-public class Main  //JAVA FORMAT
-{
  final static int n=1000000;
  static boolean b[]=new boolean[n+2];
  static  FastReader sc=new FastReader();
@@ -242,4 +240,4 @@ while(q.size()>0){
             
               
     } //spoj
-}
+

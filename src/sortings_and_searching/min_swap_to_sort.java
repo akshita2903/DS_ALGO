@@ -1,4 +1,4 @@
-package sortings;
+package sortings_and_searching;
 import java.util.*;
 class min_swap_to_sort
 {

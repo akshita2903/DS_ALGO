@@ -1,7 +1,7 @@
 package arrays;
 class rows_wit_max_1{
     int rowWithMax1s(int arr[][], int n, int m) {
-    return beter(arr,n,m);
+    return better(arr,n,m);
     }
  //NAIVE APPROACH: run two loops and find number of 1's in each ow and return row with max 1.Time->O(n*m) 
   //------------------------------------------------------------------------------------------------------------------------------//

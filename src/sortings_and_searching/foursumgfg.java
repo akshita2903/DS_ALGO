@@ -1,4 +1,4 @@
-package sortings;
+package sortings_and_searching;
 import java.util.*;
 public class foursumgfg {
     public ArrayList<ArrayList<Integer>> fourSum(int[] arr, int k) {

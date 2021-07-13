@@ -1,4 +1,4 @@
-package sortings;
+package sortings_and_searching;
 import java.util.*;
 public class subarrys_with_Zero_sum_All {
     public long count(long a[],int n){

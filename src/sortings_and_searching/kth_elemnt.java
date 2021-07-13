@@ -1,4 +1,4 @@
-package sortings;
+package sortings_and_searching;
 import java.util.*;
  class kth_elemnt {
     static Scanner s=new Scanner(System.in);

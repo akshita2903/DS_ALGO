@@ -1,4 +1,4 @@
-﻿package sortings;
+﻿package sortings_and_searching;
 import java.io.*;
 import java.util.*;
 public class missingandrepeating {

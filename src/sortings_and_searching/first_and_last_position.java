@@ -1,4 +1,4 @@
-package sortings;
+package sortings_and_searching;
 public class first_and_last_position {
 
     public int[] searchRange(int[] nums, int target) {

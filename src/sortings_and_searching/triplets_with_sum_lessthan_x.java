@@ -1,4 +1,4 @@
-package sortings;
+package sortings_and_searching;
 import java.util.*;
 public class triplets_with_sum_lessthan_x {
     long countTriplets(long arr[], int n,int sum)
