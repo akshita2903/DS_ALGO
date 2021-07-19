@@ -15,16 +15,70 @@ public class Main  //JAVA FORMAT
    Long mod=1000000007L;
     public static void solve()
     {
+  
+   int t=i();
+   while(t-->0){
+       int s=i();
+       int sum=0,c1=0,c2=0,c3=1,sum1=0,sum2=1;
+      for(int i=1;i<=s;i++){
+          sum+=i; c1++;
+          if(sum>s){
+              c1--;
+              break;
+            
+          }
+          if(sum==s){break;}
+      }
+      for(int i=1;i<=s;i+=2){
+          sum1+=i;
+          c2++;
+          if(sum1>s) {
+              sum1-=i;
+              c2--;
+              break;
+          }
+          if(sum1==s) break;
+      }
+      for(int i=2;i<=s;i+=2){
+          sum2+=i;
+          c3++;
+          if(sum2>s){
+sum2-=i;
+c3--;
+break;
+          }
+          if(sum2==s) break;
+      }
+    int diff1=s-sum1;
+    int diff2=s-sum2;
+    int diff3=s-sum;
+    if(diff1==0) System.out.println(c2);
+  else  if(diff3==0) System.out.println(c3);
+   else if(diff3==0) System.out.println(c1);
+   else{
+       c1+=1;
+       c2+=1;
+       c3+=1;
+       System.out.println(Math.min(c1,Math.min(c2,c3)));
+   }
+      
      
-  int t=i();
-  while(t-->0){
-      int n=i();
-      int l=i();
-      int r[]=input(l);
-      r=sort(r);
-      System.out.println(bs(r,l,n));
-  }
- }
+     
+  
+       }
+   }
+         
+      
+
+
+     static void print(int a[]){
+         for(int i:a)
+         System.out.print(i+" ");
+         System.out.println();
+     }
+ 
+
+ 
  static int bs(int a[],int l,int n){
      int ans=-1,low=0,high=100000000;
      while( low<=high){
