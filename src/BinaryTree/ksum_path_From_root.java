@@ -16,9 +16,9 @@ public class ksum_path_From_root {
         y.right=null;
         return y;
     }
-   static int sum=0;
+   
   static   ArrayList<Integer> path=new ArrayList<>();
-    static void nopathroot(Node root,int k){
+    static void yespathroot(Node root,int k,int sum){
       
         if(root==null) return ;
         sum+=root.data;
@@ -26,11 +26,11 @@ public class ksum_path_From_root {
        
         if(sum==k){
             print();
-            sum=0;
+            
         }
-         nopathroot(root.left,k);
+         yespathroot(root.left,k,sum);
        
-        nopathroot(root.right,k);
+        yespathroot(root.right,k,sum);
         path.remove(path.size()-1);
     }
     static void print(){
@@ -51,7 +51,7 @@ public class ksum_path_From_root {
             root.right.left=nN(4);
             root.right.left.left=nN(1);
              root.right.left.right=nN(2);
-             nopathroot(root,6);
+             yespathroot(root,6,0);
     }
 }
 
