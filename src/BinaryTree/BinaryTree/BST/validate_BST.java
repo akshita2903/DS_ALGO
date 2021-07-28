@@ -25,4 +25,22 @@ class validate_BST {
         inorder(r.right,l);
     }
        
+
+//USING STACk
+boolean chktreeforbst(TreeNode root){
+Stack<TreeNode>st=new Stack<>();
+TreeNode prev=null;
+if(root==null) return true;
+while(root!=null ||!st.empty()){
+    while(root!=null){
+        st.push(root);
+        root=root.left;
+    }
+    root=st.pop(); //get the node pushed last int the stack;
+    //to check if prev has already stored any node and its >curnode(since we travesring frm left so last node netr will be wither from left or below root)
+    if(prev!=null && root.val<=prev.val ) return false;
+    root=root.right;
+}
+return true;
+}
 }

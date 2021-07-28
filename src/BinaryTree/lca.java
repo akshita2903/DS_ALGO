@@ -1,6 +1,7 @@
 package BinaryTree;
 
 public class lca {
+    boolean a1=false,b1=false;
     Node lca(Node r,int a,int b){
         if(r==null) return r;
         Node temp=null;
