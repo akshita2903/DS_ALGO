@@ -23,4 +23,25 @@ public class dfs {
             }
         }
     }
+    public ArrayList<Integer> dfs_of_graph(int V, ArrayList<ArrayList<Integer>> adj)
+    {
+        ArrayList<Integer> dfs=new ArrayList<>();
+        boolean vis[]=new boolean[V+1];
+        for(int i=0;i<V;i++)
+        {
+            if(!vis[i])
+            DfS(i,adj,dfs,vis);
+        }
+        return dfs;
+    }
+    void DfS(int v,ArrayList<ArrayList<Integer>> adj,ArrayList<Integer> dfs,boolean vis[])
+    {
+        vis[v]=true;
+        dfs.add(v);
+        for(int x:adj.get(v))
+        {
+            if(!vis[x])
+            DFS(x,adj,dfs,vis);
+        }
+    }
 }
