@@ -1,4 +1,5 @@
 ## Getting Started
+GFG link->[click](https://auth.geeksforgeeks.org/user/akshita29320/practice/)
 
 ## Folder Structure
 
@@ -12,4 +13,4 @@ The workspace contains two folders by default, where:
 Link to the questions solved by me  in GeeksForGeeks(GFG)
 
 
-GFG link->[click](https://auth.geeksforgeeks.org/user/akshita29320/practice/).
+
