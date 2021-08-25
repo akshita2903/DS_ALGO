@@ -1,4 +1,4 @@
-package strings;
+package BinaryTree.src.strings;
 class countandsay{
     int res=0; 
     public String countAndSay(int n) {

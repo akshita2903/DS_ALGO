@@ -1,11 +1,13 @@
-class aggressivecows{
-  import java.io.*;
-import java.util.*; 
+
+package BinaryTree.src.sortings_and_searching;
+import java.io.*;
+
+import java.util.*;
 import java.lang.*;
 import java.text.*;
 
  
-public class Main  //JAVA FORMAT
+public class aggressivecows  //JAVA FORMAT
 {
  final static int n=1000000;
  static boolean b[]=new boolean[n+2];
@@ -242,4 +244,4 @@ while(q.size()>0){
             
               
     } //spoj
-}
+

@@ -1,4 +1,7 @@
-﻿package linklist;
+﻿package BinaryTree.src.linklist;
+class ListNode{
+
+}
 public class intersection_of_2_ll {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

@@ -1,4 +1,4 @@
-﻿package BinaryTree;
+﻿package BinaryTree.src.BinaryTree;
 import java.util.*;
 public class mirror {
     mirror left,right;

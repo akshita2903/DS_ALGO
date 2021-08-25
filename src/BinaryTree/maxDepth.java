@@ -1,4 +1,4 @@
-﻿package BinaryTree;
+﻿package BinaryTree.src.BinaryTree;
 
 public class maxDepth {
     maxDepth root,left,right;

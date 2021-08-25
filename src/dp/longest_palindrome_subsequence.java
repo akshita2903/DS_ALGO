@@ -1,4 +1,4 @@
-package dp;
+package BinaryTree.src.dp;
 class longest_palindrome_subsequence{
     //using LPS--------------------
       public int longestPalindromeSubseq(String s)

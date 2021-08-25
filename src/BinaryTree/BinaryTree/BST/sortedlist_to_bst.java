@@ -1,8 +1,6 @@
-
+package BinaryTree.src.BinaryTree.BinaryTree.BST;
 import.java.util.*;
-class ListNode {
-    ListNode next; int val;
-}
+
 
 public class sortedlist_to_bst {
     

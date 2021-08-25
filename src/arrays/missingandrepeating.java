@@ -1,4 +1,4 @@
-﻿package arrays;
+﻿package BinaryTree.src.arrays;
 public class missingandrepeating {
     int[] findTwoElement(int arr[], int n) {
         int xor=0,x=0,y=0;

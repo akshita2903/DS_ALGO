@@ -1,4 +1,11 @@
 package BinaryTree.BinaryTree.BST;
+class Node{
+    Node left,right;
+    int data;
+}
+class Res{
+    Res pre,succ;
+}
 class prede_and_succ{
     public static void findPreSuc(Node root, Res p, Res s, int key)
     {

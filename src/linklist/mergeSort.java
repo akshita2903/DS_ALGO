@@ -1,4 +1,5 @@
-﻿public class mergeSort {
+﻿package BinaryTree.src.linklist;
+public class mergeSort {
     public ListNode sortList(ListNode head) {
         if(head==null || head.next==null) return head;
        ListNode mid=middle(head);

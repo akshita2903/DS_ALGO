@@ -1,6 +1,7 @@
-package strings;
+package BinaryTree.src.strings;
 class max_diff_0_and_1{
-    public static void main(String[] args){
+    public static void main(String[] args) {
+    }
          int maxSubstring(String S) {
         // code here
           int g_max=-1,l_max=0;
@@ -16,8 +17,7 @@ class max_diff_0_and_1{
           return g_max;
 
     }
-    char getchar(String s,int i){
+    static char getchar(String s,int i){
         return s.charAt(i);
     }
     }
-}

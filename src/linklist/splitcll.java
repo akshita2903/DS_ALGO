@@ -1,4 +1,5 @@
-﻿public class splitcll {
+﻿package BinaryTree.src.linklist;
+public class splitcll {
     void splitList(circular_LinkedList list)
     {
         Node head=list.head,slow=head,fast=head,fastpr=null,prev=null;

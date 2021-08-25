@@ -1,5 +1,7 @@
-﻿package linklist;
-
+﻿package BinaryTree.src.linklist;
+class Node{
+    Node next,prev;
+}
 public class reversedoublyll {
     public static Node reverseDLL(Node  head)
 {

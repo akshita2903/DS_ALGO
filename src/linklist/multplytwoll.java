@@ -1,4 +1,4 @@
-﻿package linklist;
+﻿package BinaryTree.src.linklist;
 
 public class multplytwoll {
 multplytwoll next;

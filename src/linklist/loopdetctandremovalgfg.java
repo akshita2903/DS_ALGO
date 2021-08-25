@@ -1,5 +1,5 @@
 
-package linklist;
+package BinaryTree.src.linklist;
 public class loopdetctandremovalgfg {
     public static void removeLoop(Node head){
         if(head==null || head.next==null) return ;

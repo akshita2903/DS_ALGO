@@ -1,4 +1,4 @@
-﻿package dp;
+﻿package BinaryTree.src.dp;
 
 public class friendpairing_prob {
 
@@ -9,6 +9,7 @@ public class friendpairing_prob {
      return cfp(n);
 
     }
+
    public long cfp(int n)
 {
 //  long dp[]=new long[n+1];

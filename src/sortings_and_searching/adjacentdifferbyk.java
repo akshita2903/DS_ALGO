@@ -1,4 +1,4 @@
-﻿package sortings_and_searching;
+﻿ package BinaryTree.src.sortings_and_searching;
 import java.util.*;
 public class adjacentdifferbyk {
     public static void main(String[] args) {

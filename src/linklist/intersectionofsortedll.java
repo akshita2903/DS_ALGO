@@ -1,4 +1,4 @@
-﻿package linklist;
+﻿package BinaryTree.src.linklist;
 
 public class intersectionofsortedll {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

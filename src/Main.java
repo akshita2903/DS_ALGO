@@ -18,57 +18,26 @@ public class Main  //JAVA FORMAT
   
    int t=i();
    while(t-->0){
-       int s=i();
-       int sum=0,c1=0,c2=0,c3=1,sum1=0,sum2=1;
-      for(int i=1;i<=s;i++){
-          sum+=i; c1++;
-          if(sum>s){
-              c1--;
-              break;
-            
-          }
-          if(sum==s){break;}
-      }
-      for(int i=1;i<=s;i+=2){
-          sum1+=i;
-          c2++;
-          if(sum1>s) {
-              sum1-=i;
-              c2--;
-              break;
-          }
-          if(sum1==s) break;
-      }
-      for(int i=2;i<=s;i+=2){
-          sum2+=i;
-          c3++;
-          if(sum2>s){
-sum2-=i;
-c3--;
-break;
-          }
-          if(sum2==s) break;
-      }
-    int diff1=s-sum1;
-    int diff2=s-sum2;
-    int diff3=s-sum;
-    if(diff1==0) System.out.println(c2);
-  else  if(diff3==0) System.out.println(c3);
-   else if(diff3==0) System.out.println(c1);
-   else{
-       c1+=1;
-       c2+=1;
-       c3+=1;
-       System.out.println(Math.min(c1,Math.min(c2,c3)));
-   }
-      
-     
-     
-  
-       }
-   }
+int n=i();
+int k=i();
+Long[] a=inpuut(n);
+HashMap<Long,Integer> mp=new HashMap<>();
+for(int i=0;i<n;i++)
+mp.put(a[i],i);
+Arrays.sort(a);
+int ans=1;
+for(int i=1;i<n;i++){
+    int x=mp.get(a[i]),y=mp.get(a[i-1]);
+    if((y+1)!=x) ans++;
+
+}
+System.out.println((ans<=k)?"Yes":"No");
+    }
+    }
          
-      
+     static int min(int a,int b) {
+         return (a<=b)?a:b;
+     }
 
 
      static void print(int a[]){

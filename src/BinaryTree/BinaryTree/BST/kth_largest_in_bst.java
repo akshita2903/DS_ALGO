@@ -1,4 +1,8 @@
-package BinaryTree.BinaryTree.BST
+package BinaryTree.src.BinaryTree.BinaryTree.BST;
+import java.util.*;
+class Node{
+    int data=0; Node left=null,right=null;
+}
 class kth_largest_in_bst{
 public int kthLargest(Node root,int K)
     {    if(root==null) return -1;

@@ -1,23 +1,22 @@
 ﻿
-package linklist;
+package BinaryTree.src.linklist;
+
 import java.util.*;
-class ListNde{
-    ListNde next; int val;
-    public ListNde(int x){
+class ListNode{
+    ListNode next; int val;
+    public ListNode(int x){
         this.val=x;
         this.next=null;
     }
 }
-public class addtwoll {
-  
-}
-/**
+
+/*
  * Definition for singly-linked list.
  * public class ListNode {
  *
  * }
  */
-class Solution {
+class addtwoll {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     Stack<Integer> s1=new Stack<>();
         Stack<Integer> s2=new Stack<>();

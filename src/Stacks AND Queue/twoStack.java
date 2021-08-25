@@ -1,4 +1,5 @@
 ﻿import java.util.*;
+package  BinaryTree.src.Stacks AND Queue;
 public class twoStack{
     int arr[]=new int[100];
     int top1=-1,top2=-1;

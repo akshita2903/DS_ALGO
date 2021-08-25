@@ -1,4 +1,4 @@
-package BinaryTree;
+
 class Node{
     Node root,left,right;
 }
