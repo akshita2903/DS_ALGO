@@ -59,7 +59,7 @@ static void get_com(int src,boolean[] vis){
 }
 
     public static void main(String[] args) {
-        Connected_Component g=new Connected_Component(7);
+       coonnected_component g=new coonnected_component(7);
         g.create_graph(0,1);
         g.create_graph(2,1);
         g.create_graph(3,5);

@@ -1,5 +1,5 @@
 ﻿
-package BinaryTree.src.linklist;
+package linklist;
 
 import java.util.*;
 class ListNode{

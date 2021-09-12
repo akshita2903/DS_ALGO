@@ -1,4 +1,4 @@
-package src.BinaryTree.graph;
+package graph;
 class number_of_island{
     public int numIslands(char[][] grid)
     {

@@ -1,4 +1,4 @@
-package src.BinaryTree.graph;
+package graph;
 import java.util.*;
 public class BFS {
      //Function to return Breadth First Traversal of given graph.

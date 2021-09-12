@@ -1,4 +1,4 @@
-package src.BinaryTree.graph;
+package graph;
 import java.util.*;
 class hamilton_path{
      boolean check(int N, int M, ArrayList<ArrayList<Integer>> g) 

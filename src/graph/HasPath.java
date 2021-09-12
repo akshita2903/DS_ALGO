@@ -1,4 +1,5 @@
-package src.BinaryTree.graph;
+package graph;
+import java.util.*;
 class  HasPath{
     public boolean validPath(int n, int[][] edges, int src, int dst) {
         if(src==dst) return true;

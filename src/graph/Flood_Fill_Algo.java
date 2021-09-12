@@ -1,3 +1,4 @@
+package graph;
 class Flood_Fill_Algo {
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
         int[][] new_image=new int[image.length][image[0].length];
