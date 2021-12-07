@@ -1,0 +1,11 @@
+return_type func(int[]a(or string),int i,int j)
+{
+if(i>j) //may differ
+return return_type;
+for(int k=i;k<j;k++) //k value may differ
+{
+temp_ans=func(a,i,k)+func(a,k+1,j);
+ans=some_func_on(temp_ans);
+}
+return ans;
+}
