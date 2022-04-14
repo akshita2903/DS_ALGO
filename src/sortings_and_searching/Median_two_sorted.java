@@ -54,7 +54,7 @@ double ans=n1<n2?Find(nums1,nums2):Find(nums2,nums1);
             }
         }
         return 0.0;
-      //t.c->O(log(m+n))
+      //t.c->O(log(min(m,n)))
     }
     int min(){
         return Integer.MIN_VALUE;
