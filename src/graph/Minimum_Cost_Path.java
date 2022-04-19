@@ -1,4 +1,5 @@
 package graph;
+import java.util.*;
 class Minimum_Cost_Path{
   class Pair{
        int indx_i,indx_j,c;
