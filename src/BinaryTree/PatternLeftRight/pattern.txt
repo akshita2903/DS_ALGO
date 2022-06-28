@@ -1,0 +1,16 @@
+function type name(root,other paramter(if require))
+{
+
+    if(root ==null) return (as per condition);
+
+
+    type left=name(root.left,other paramter);
+    type right=name(root.right,other paramter);
+
+
+    calculate answer asked in the question according to question=> prefer/look at questions
+
+    return (intermediate result which can be the actual answer)
+}
+time complexity-> O(n) +t.c of sme other calculation if required
+space->recursion stack + depends on the format of answer(for arraylist it is O(n),for int,float, it is o(1)
